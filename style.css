@@ -1,0 +1,56 @@
+
+h1 {
+  text-align: center;
+  border-style: double;
+  border-color: black;
+}
+#peanut {
+  text-align: center;
+}
+#link {
+  color: #9932cc;
+  padding-left: 10px;
+}
+body {
+  background-image: url("http://blog.visme.co/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-040.jpg");
+  background-size: cover;
+  color: darkred;
+}
+h2 {
+  font-family: Impact, Charcoal, sans-serif;
+}
+h3 {
+  font-family: Impact, Charcoal, sans-serif;
+}
+p.maintext {
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+h2.maintext {
+  padding-left: 10px;
+}
+h3.maintext {
+  padding-left: 10px;
+}
+img {
+  height: 200px;
+}
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+h2.maintext::first-line {
+  color: black;
+}
+h3.maintext::first-line {color:black;}
+a:link {
+  color: purple;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: white;
+  transition-delay: 0.5s;
+}
